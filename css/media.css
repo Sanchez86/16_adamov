@@ -1,0 +1,424 @@
+@media only screen and (max-width: 1400px) {
+   
+    .col p{
+        padding-top:0;
+    }
+    .line{
+        display: none;
+
+    }
+     .col{
+        display: none;
+         position:absolute;
+         top:0;
+     }
+    .cols{
+        float: none;
+        margin: 0 auto;
+     
+    }
+
+    #services .contacts h2 {
+        margin-bottom: 14px;
+    }
+  
+   
+    #services{
+        position:relative;
+    }
+    .radio{
+        display:block;
+        position:absolute;
+        z-index:10;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+    }
+    .radio1{
+        top: 263px;
+        left: 667px;
+    }
+    .radio2{
+        top: 372px;
+        left: 648px;
+    }
+    .radio3{
+        top: 467px;
+        left: 300px;
+    }
+    .radio4{
+        top: 558px;
+        left: 500px;
+    }
+    .radio5{
+        top: 651px;
+        left: 418px;
+    }
+    .radio6{
+        top: 749px;
+        left: 522px;
+    }
+    .radio7{
+        top: 840px;
+        left: 638px;
+    }
+    .radio8{
+        top: 935px;
+        left: 434px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+   
+    
+    .cols{
+        position:relative;
+    }
+   
+  
+    #topMenu .container{
+        padding:0;
+    }
+    #socialBlock .container{
+        padding:0;
+    }
+    #services .container{
+        padding:0;
+    }
+    #news .container {
+        padding: 0;
+    }
+    #best .container{
+        padding: 0;
+    }
+    #contacts .container{
+        padding: 0;
+    }
+    #recomendation.container{
+    padding:0;
+}
+
+}
+@media only screen and (max-width: 1200px){
+     
+
+    /*recomendation*/
+    #recomendation{
+
+    }
+    /*end recomendation*/
+
+    .whiteLine{
+        max-width: 335px;
+        width:auto;
+    }
+    .newsGrayLine{
+        max-width: 203px;
+        width:auto;
+    }
+    .newsNext2{
+        margin-left:0;
+    }
+    .newsNext{
+        background-image: url('../images/newsBtn2.jpg');
+        width: 166px;
+        height: 49px;
+    }
+    .bottomArea3{
+        margin-left: 7px;
+    }
+    .bottomArea2{
+        margin-left: 9px;
+    }
+    .price{
+        width: 106px;
+        font-size: 21px;
+        padding-top: 12px;
+    }
+    .bottomArea span{
+        font-size:21px;
+    }
+     .area p {
+        padding-right: 20px;
+        max-height: 60px;
+    }
+
+     #topMenu .container,
+     #socialBlock .container,
+     #services .container,
+     #news .container,
+     #best .container,
+     #contacts .container,
+     #recomendation.container{
+        padding-left:15px!important;
+        padding-right:15px!important;
+    }
+     #services .container{width:auto;}
+   
+    /*menu*/
+    .navbar-brand > img{
+        width:50%;
+        transition: width 1s;
+    }
+    .navbar-nav > li > a{
+        margin-left:0;
+        font-size: 18px;
+        padding-left:9px;
+        padding-right:9px;
+        transition: margin-left 1s;
+        transition: font-size 1s;
+    }
+    #topMenu .navbar-nav{
+        margin-top: -12px;
+    }
+    #topMenu{
+        height: 73px;
+    }
+
+/*end menu*/
+}
+
+@media only screen and (max-width: 992px){
+
+    .bottomArea3{
+        margin-left: 24px;
+    }
+    .bottomArea2{
+        margin-left: 23px;
+    }
+    .price{
+        width: 122px;
+        font-size: 25px;
+        padding-top: 9px;
+    }
+    .bottomArea span{
+        font-size:25px;
+    }
+     .area p {
+        padding-right: 20px;
+        max-height: 60px;
+    }
+
+     #services .container{width:auto;}
+    .area{
+        margin-bottom: 25px;
+        max-width:none;
+    }
+    #recomendation{
+        padding-bottom:0!important;
+    }
+    
+     #topMenu .navbar-nav{
+        margin-top: -64px;
+    }
+      #socialBlock{
+        height:78px;
+    }
+     .blockIcon {
+    padding-left: 10px;
+}
+      .blockIconSoc:first-child, .blockIconSoc, .envelope, .phone{
+          border:0;
+      }
+     
+      .blockIconRight{
+          float:left;
+      }
+      #socialBlock a {
+ 
+    border-radius: 4px;
+}
+      #topMenu{
+         height:auto;
+      }
+      .navbar-nav > li > a{
+              padding-top: 10px;
+      }
+      .header{
+          width:auto;
+      }
+        .header p {
+                font-size: 48px;
+        }
+      
+}
+
+@media only screen and (max-width: 768px){
+    .header p {
+    font-size: 27px;
+}
+
+    .col p {
+    color: #252a2b;
+    font-size: 16px;
+    margin-left: 79px;
+    margin-top: 11px;
+    font-family: CALIBRI;
+    padding-top: 17px;
+}
+
+    .radio{
+        display:none;
+    }
+    .col{
+        /*border-right:3px solid #04C5FF;*/
+        display:block;
+            width: auto;
+    }
+    .cols{
+        width: 370px;
+    }
+    .subCol {
+            margin-top: 20px;
+                width: 100%;
+    }
+    #services .contacts h2 {
+    margin-top: 100px;
+}
+
+
+    .contacts input[type="reset"]{
+        position: absolute;
+        left: 203px;
+        bottom: -290px;
+    }
+
+
+    #clients {
+        background-repeat: no-repeat;
+        padding-bottom:50px;
+    }
+    .clients a{
+        margin-bottom:0;
+    }
+    #clients h2 {
+ 
+    margin-top: 70px;
+ 
+}
+}
+
+@media only screen and (max-width: 500px){
+    .whiteBorderBottom{
+        margin-left: 30px;
+        border-top: 5px solid rgba(255, 255, 255, 0.59);
+    }
+    .header p {
+    font-size: 18px;
+    padding-left:10px;
+    padding-right: 10px;
+        line-height: 28px;
+}
+    .whiteBorderTop {
+    border-left: 5px solid rgba(255, 255, 255, 0.59);
+    border-top: 5px solid rgba(255, 255, 255, 0.59);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+   
+
+
+    .colIcon{left: 16px;}
+   
+
+    .col p{
+        padding-top:0;
+        font-size:14px;
+        margin-left: 63px;
+    }
+
+    .cols {
+    width: 270px;
+}
+    .col{
+         background-color: #fff;
+        background-image:none;
+        border-radius: 5px;
+        height:auto;
+    padding-bottom:5px;
+    }
+    .contacts .h4{
+        width:auto;
+       
+    }
+     .contacts h2{
+         font-size:32px;
+     }
+    .contacts .h4 h4{
+     font-size: 14px;  
+    }
+     
+    #socialBlock {
+    height: auto;
+}
+    .navbar-brand{
+           width: 80%;
+    padding-right: 0;
+    }
+    .area p{
+            max-width: 261px!important;
+    }
+    .blockIcon{
+            padding-left: 10px;
+    }
+    .sicialRow {
+    margin-left: 0;
+}
+    .contacts input[type="reset"]{
+    position: absolute;
+    left: 158px;
+    bottom: -270px;
+    width: 130px;
+    height: 40px;
+}
+    .contacts input[type="submit"] {
+        width: 130px;
+        height: 40px;
+    }
+    
+    .bottomArea1{
+           margin-left: 6px;
+    }
+     h2{
+            font-size: 32px;
+    }
+    #recomendation .naviTabs{
+        width:auto;
+    }
+    #recomendation .nav > li{
+        float:none;
+    }
+       .bottomArea3{
+            margin-left: 4px;
+    }
+    .bottomArea2{
+        margin-left: 9px;
+    }
+    .price{
+        width: 99px;
+        font-size: 19px;
+        padding-top:14px;
+    }
+    .bottomArea span{
+        font-size:18px;
+    }
+     .area p {
+        padding-right: 20px;
+        max-height: 60px;
+        max-width: 264px;
+    }
+     #services .contacts h2 {
+    margin-top: 55px;
+}
+}
+
+@media only screen and (max-width: 422px){
+
+        #socialBlock {
+    height: 130px;
+}
+        .navbar-toggle{
+                position: absolute;
+    right: 0;
+        }
+}
