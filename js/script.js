@@ -75,48 +75,6 @@ $(window).scroll(function () {
     $(".subCol").on("mouseleave", function () {
         $(".colIcon", this).css('transform', 'rotateY(0deg)')
     });
-    
-
-
-
-    var map;
-    var mapCoordinates = new google.maps.LatLng(59.934320, 30.437247);
-
-    var markers = [];
-    var image = new google.maps.MarkerImage('images/marker.png', // иконка
-    new google.maps.Size(171, 169), // размеры иконок
-    new google.maps.Point(0, 0),
-    new google.maps.Point(42, 56)
-    );
-
-    function addMarker() {
-        markers.push(new google.maps.Marker({
-            position: mapCoordinates,
-            raiseOnDrag: false,
-            icon: image,
-            map: map,
-            draggable: false
-        }));
-    }
- 
-function initialize()
-{
-var mapOptions = {
-backgroundColor: "#ffffff", // цвет фона
-zoom: 8, // масштаб
-disableDefaultUI: true,
-draggable: true,
-scrollwheel: true,
-center: mapCoordinates,
-mapTypeId: google.maps.MapTypeId.ROADMAP,
-//----------- стили ----------
-styles: [{ "elementType": "geometry", "stylers": [{ "hue": "#ff4400" }, { "saturation": -68 }, { "lightness": -4 }, { "gamma": 0.72 }] }, { "featureType": "road", "elementType": "labels.icon" }, { "featureType": "landscape.man_made", "elementType": "geometry", "stylers": [{ "hue": "#0077ff" }, { "gamma": 3.1 }] }, { "featureType": "water", "stylers": [{ "hue": "#00ccff" }, { "gamma": 0.44 }, { "saturation": -33 }] }, { "featureType": "poi.park", "stylers": [{ "hue": "#44ff00" }, { "saturation": -23 }] }, { "featureType": "water", "elementType": "labels.text.fill", "stylers": [{ "hue": "#007fff" }, { "gamma": 0.77 }, { "saturation": 65 }, { "lightness": 99 }] }, { "featureType": "water", "elementType": "labels.text.stroke", "stylers": [{ "gamma": 0.11 }, { "weight": 5.6 }, { "saturation": 99 }, { "hue": "#0091ff" }, { "lightness": -86 }] }, { "featureType": "transit.line", "elementType": "geometry", "stylers": [{ "lightness": -48 }, { "hue": "#ff5e00" }, { "gamma": 1.2 }, { "saturation": -23 }] }, { "featureType": "transit", "elementType": "labels.text.stroke", "stylers": [{ "saturation": -64 }, { "hue": "#ff9100" }, { "lightness": 16 }, { "gamma": 0.47 }, { "weight": 2.7 }] }]
-//------------конец --------------
-};
-map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-addMarker();
-}
-google.maps.event.addDomListener(window, 'load', initialize);
 
 var w = window.innerWidth;
 if (w < 1400) {
