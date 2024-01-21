@@ -1,4 +1,3 @@
-/*â€”ÑÐ¿Ð¸ÑÐ¾Ðº Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ñ‹Ñ… ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð²*/
 @font-face {
     font-family: "CORBELB";
     src: url('../fonts/CORBELB.TTF') format('truetype'),
@@ -146,11 +145,9 @@ img{
 #navbar{
 	height:auto;
 	-webkit-transition: background-color 1s;
-	        transition: background-color 1s; /*Ð´Ð¾Ð±Ð°Ð²Ð»ÑÐµÑ‚ Ð¿Ñ€Ð¾Ð·Ñ€Ð°Ñ‡Ð½Ð¾ÑÑ‚Ð¸*/
+	        transition: background-color 1s;
 }
 
-
-/*Ð½Ðµ Ð²Ñ‹Ð´ÐµÐ»Â¤ÐµÑ‚ÑÂ¤ Ñ‚ÐµÐºÑÑ‚*/
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -160,18 +157,15 @@ img{
   user-select: none;           /* non-prefixed version, currently*/
 }
 
-
-/* Â ÐºÐ½Ð¾Ð¿ÐºÐ° "Ð½Ð° Ð²ÐµÑ€Ñ…" */
-
   #top {
     z-index:100;
     bottom: 0;
     cursor: pointer;
     display: none;
     position: fixed;
-    right: 25px; /*Ð¾Ñ‚ÑÑ‚ÑƒÐ¿ Ð¾Ñ‚ Ð¿Ñ€Ð°Ð²Ð¾Ð³Ð¾ ÐºÑ€Ð°Â¤*/
-    width:48px; /*ÑˆÐ¸Ñ€Ð¸Ð½Ð°*/
-    height:33px;/*Ð²Ñ‹ÑÐ¾Ñ‚Ð°*/
+    right: 25px;
+    width:48px;
+    height:33px;
     background-color:rgba(0, 0, 0, 0.69);
     border-top-left-radius:5px;
     border-top-right-radius:5px;
@@ -227,7 +221,6 @@ img{
 	-webkit-transition: border-color 1s;
 	        transition: border-color 1s
 }
-/* ÐºÐ¾Ð½ÐµÑ† Â Ð½Ð¾Ð¿ÐºÐ° "Ð½Ð° Ð²ÐµÑ€Ñ…" */
 
 /*social block*/
 #socialBlock{
@@ -375,8 +368,8 @@ img{
 /*gamburger*/
 
 .navbar-default .navbar-toggle{
-	border-color: #fff;/* Ñ€Ð°Ð¼ÐºÐ° Ð³Ð°Ð¼Ð±ÑƒÑ€Ð³ÐµÑ€Ð°*/
-    background-color: #fff; /* Ñ„Ð¾Ð½ Ð³Ð°Ð¼Ð±ÑƒÑ€Ð³ÐµÑ€Ð°*/
+	border-color: #fff;
+    background-color: #fff;
 	-webkit-transition: background-color 1s;
 	        transition: background-color 1s;
     margin-top: 18px;
@@ -384,20 +377,20 @@ img{
 }
 .navbar-default .navbar-toggle:hover,
  .navbar-default .navbar-toggle:focus{
-	border-color: #fff;/* Ñ€Ð°Ð¼ÐºÐ° Ð³Ð°Ð¼Ð±ÑƒÑ€Ð³ÐµÑ€Ð° Ð¿Ñ€Ð¸ Ð½Ð°Ð²Ð¸Ð´ÐµÐ½Ð¸Ð¸ Ð¸ Ð² Ñ„Ð¾ÐºÑƒÑÐµ*/
-    background-color: inherit;/* Ñ„Ð¾Ð½ Ð³Ð°Ð¼Ð±ÑƒÑ€Ð³ÐµÑ€Ð° Ð¿Ñ€Ð¸ Ð½Ð°Ð²Ð¸Ð´ÐµÐ½Ð¸Ð¸ Ð¸ Ð² Ñ„Ð¾ÐºÑƒÑÐµ*/
+	border-color: #fff;
+    background-color: inherit;
 -webkit-transition: border-color 1s;
         transition: border-color 1s;
 }
 /**/
 .navbar-default .navbar-toggle .icon-bar{
-	background-color: #00c4ff;/* Ñ†Ð²ÐµÑ‚ Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ñ‹Ñ… Ð¿Ð¾Ð»Ð¾ÑÐ¾Ðº*/
+	background-color: #00c4ff;
 	-webkit-transition: background-color 1s;
 	        transition: background-color 1s;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
  .navbar-default .navbar-toggle:focus .icon-bar{
-	background-color: #333;/* Ñ†Ð²ÐµÑ‚ Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ñ‹Ñ… Ð¿Ð¾Ð»Ð¾ÑÐ¾Ðº Ð¿Ñ€Ð¸ Ð½Ð°Ð²Ð¸Ð´ÐµÐ½Ð¸Ð¸ Ð¸ Ð² Ñ„Ð¾ÐºÑƒÑÐµ*/
+	background-color: #333;
     border-color: #fff;
 }
 /*end gamburger*/
@@ -466,8 +459,6 @@ img{
         margin-top: 9px;
         text-shadow: none;
     }
-
-	/*ÐºÐ½Ð¾Ð¿ÐºÐ¸ LEFT | RIGHT*/
 	#slider1 .glyphicon-chevron-left,
 	#slider1 .glyphicon-chevron-right{
 		border:1px solid #ffffff;
@@ -476,12 +467,10 @@ img{
 		width: 39px;
 		height: 39px;
 		background-color:none;
-		top:50%; /* Ð²Ñ‹ÑÐ¾Ñ‚Ð° ÐºÐ½Ð¾Ð¿ÐºÐ¸ */
+		top:50%;
 		border-radius: 50px;
 		-webkit-transition: background-color 0.5s;
 		        transition: background-color 0.5s;
-		/*background-image:url('../images/.png');*/
-		/*font-family:;*/
 	}
     #slider1 .glyphicon-chevron-left{
         top: 612.3%;
@@ -499,7 +488,7 @@ img{
 	
 	.carousel-control.left,
 	.carousel-control.right{
-		background: inherit!important; /*Ñ„Ð¾Ð½Ð¾Ð²Ñ‹Ð¹ Ð³Ñ€Ð°Ð´Ð¸ÐµÐ½Ñ‚*/
+		background: inherit!important;
 	}
     .slideCount{
         position:absolute;
@@ -517,7 +506,7 @@ img{
 	
 	.glyphicon-chevron-left:before,
 	.glyphicon-chevron-right:before{
-		display:none; /*Ð²Ñ‹ÐºÐ»ÑŽÑ‡Ð¸Ð» Ð¸ÐºÐ¾Ð½ÐºÑƒ*/
+		display:none;
 	}
 	
 	.carousel-control,
@@ -582,8 +571,9 @@ img{
 }
 header{
    position:relative;
-    width:100%;
-    height:891px;
+   width:100%;
+   height:891px;
+   overflow: hidden;
 }
 #subSearch{
     position:absolute;
@@ -652,10 +642,10 @@ header{
 }
 #search .nav-tabs > li.active a::after{
      content: ''; 
-    position: absolute; /* ÐÐ±ÑÐ¾Ð»ÑŽÑ‚Ð½Ð¾Ðµ Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ð¾Ð½Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ */
-    left: 28px; bottom:0px; /* ÐŸÐ¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° */
-    border: 8px solid transparent; /* ÐŸÑ€Ð¾Ð·Ñ€Ð°Ñ‡Ð½Ñ‹Ðµ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ */
-    border-top: 8px solid #dfdfdf; /* Ð”Ð¾Ð±Ð°Ð²Ð»ÑÐµÐ¼ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº */
+    position: absolute;
+    left: 28px; bottom:0px;
+    border: 8px solid transparent;
+    border-top: 8px solid #dfdfdf;
     transform:rotateX(180deg);
 
 
